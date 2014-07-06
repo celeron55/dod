@@ -1,7 +1,12 @@
+minetest.set_mapgen_params({
+	mgname = "v6asd",
+	flags = "trees, caves, dungeons",
+})
+
 local YMIN = -33000
 local YMAX = 33000
-local TOPMOST_FLOOR_Y = -15
-local FLOOR_INTERVAL = 20
+local TOPMOST_FLOOR_Y = dod.TOPMOST_FLOOR_Y
+local FLOOR_INTERVAL = dod.FLOOR_INTERVAL
 local STAIRCASE_INTERVAL = 40
 local SI = STAIRCASE_INTERVAL
 
